@@ -1,0 +1,8 @@
+﻿ABc
+xyz[1:0]
+signal[19:0]
+signalx[19:0]
+signaly[7:0]
+signalz[5:0]
+enable
+
