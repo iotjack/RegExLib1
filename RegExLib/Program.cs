@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using System.IO;
 
+/*
+Patterns I used: 
+Option ticker like this  -ALK201016P12.5   ---  string pattern = @"(\w{1,4})(\d{6})(\w)(\d+(\.\d)?)";
+
+*/
 namespace RegExLib
 {
     class Program
