@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using System.IO;
 
+
+//match comments, replace comments /* ... */ code  /* ... */
+//must have ? (match 0 or 1 times)
+//string pattern = @"\/\*.*?\*\/";
+//var final_text = Regex.Replace(text, pattern, " ");
+
+
 /*
 Patterns I used: 
 Option ticker like this  -ALK201016P12.5   ---  string pattern = @"(\w{1,4})(\d{6})(\w)(\d+(\.\d)?)";
